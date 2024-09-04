@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    max-width: 550px;
+    max-height: 550px;
+    min-width: 300px;
+    min-height: 300px;
+}
+.container{
+    background-color: aqua;
+    border: 2px solid white;
+    min-width: 200px;
+    height: 480px;
+    padding: 20px 20px;
+    margin: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 500px;
+    max-height: 500px;
+    min-height: 200px;
+    width: 480px;
+    cursor: pointer;
+}
+.container:hover{
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.next{
+    text-decoration: none;
+    color: #4B0082;
+    cursor: pointer;
+}
+.next:hover{
+    background-color: white;
+    color: aqua;
+    text-decoration: none;
+    cursor: pointer;
+}
+p, h1{
+    word-spacing: 0.5em;
+    letter-spacing: 0.2em;
+    color: #4B0082;
+}

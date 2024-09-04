@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+    height: 500px;
+    width: 500px;
+    margin: 0;
+    max-width: 550px;
+    max-height: 550px;
+    min-width: 300px;
+    min-height: 300px;
+}
+.container{
+    background-color: aqua;
+    border: 2px solid white;
+    min-width: 200px;
+    height: 450px;
+    padding: 20px 20px;
+    margin: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 500px;
+    max-height: 500px;
+    min-height: 200px;
+    width: 450px;
+    color: #4B0082;
+}
+.tag{
+    text-transform: uppercase;
+}
+button{
+    color: #4B0082;
+    border: 1px solid white;
+}
+button:hover{
+    color: black;
+    border: 1px solid #4B0082;
+}
+#header{
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+}
