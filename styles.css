@@ -27,7 +27,7 @@ body{
     cursor: pointer;
 }
 .container:hover{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
     cursor: pointer;
 }
 .next{
