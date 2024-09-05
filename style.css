@@ -7,6 +7,10 @@ body{
     max-height: 550px;
     min-width: 300px;
     min-height: 300px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    display: flex;
 }
 .container{
     background-color: aqua;
@@ -23,6 +27,15 @@ body{
     width: 450px;
     color: #4B0082;
 }
+.back{
+    text-decoration: none;
+}
+.back:hover{
+    color: #4B0082;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    border-radius: 15% solid #4B0082;
+}
 .tag{
     text-transform: uppercase;
 }
@@ -31,11 +44,27 @@ button{
     border: 1px solid white;
 }
 button:hover{
-    color: black;
-    border: 1px solid #4B0082;
-}
+    color: #4B0082;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    border-radius: 15% solid #4B0082;
+  }
 #header{
     text-align: left;
     text-decoration: none;
     cursor: pointer;
 }
+input{
+    color: #4B0082;
+    text-emphasis: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15% solid #4B0082;
+}
+input:hover{
+    color: #4B0082;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    border-radius: 15% solid #4B0082;
+}
+
